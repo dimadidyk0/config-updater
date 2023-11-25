@@ -1,10 +1,29 @@
 {
   "configs": [
     {
-      "id": "brand1",
+      "id": "AV",
       "data": {
-        "title": "title 1",
-        "description": "description 1"
+        "imageTemplates": {
+          "CATEGORY_ICON": "test/1/2/3"
+        },
+        "randomGamePosition": 7,
+        "themeSettings": {
+          "theme": "brand8",
+          "mode": "dark"
+        }
+      }
+    },
+    {
+      "id": "IE",
+      "data": {
+        "imageTemplates": {
+          "CATEGORY_ICON": "asdqweasdwqe/1/2/3"
+        },
+        "randomGamePosition": 7,
+        "themeSettings": {
+          "theme": "brand2244",
+          "mode": "light"
+        }
       }
     }
   ]
