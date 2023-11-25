@@ -1,0 +1,11 @@
+{
+  "configs": [
+    {
+      "id": "brand1",
+      "data": {
+        "title": "title 1",
+        "description": "description 1"
+      }
+    }
+  ]
+}
