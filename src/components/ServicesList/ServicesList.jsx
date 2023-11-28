@@ -3,10 +3,10 @@ import { Checkbox, Divider } from 'antd';
 
 const CheckboxGroup = Checkbox.Group;
 
-const plainOptions = ['IE', 'AV'];
+const plainOptions = ['live-casino', 'pm-casino', 'lobby', 'instant-games', 'bingo', 'tvgames', 'virtual-sports'];
 const defaultCheckedList = [];
 
-export function BrandList() {
+export function ServicesList() {
   const [checkedList, setCheckedList] = useState(defaultCheckedList);
   const checkAll = plainOptions.length === checkedList.length;
   const indeterminate = checkedList.length > 0 && checkedList.length < plainOptions.length;
@@ -16,7 +16,7 @@ export function BrandList() {
 
   return (
     <div>
-      <h3>Brands:</h3>
+      <h3>Services:</h3>
       <br />
       <Checkbox indeterminate={indeterminate} onChange={onCheckAllChange} checked={checkAll}>
         Check all
