@@ -19,7 +19,7 @@ export function BrandList() {
       <h3>Brands:</h3>
       <br />
       <Checkbox indeterminate={indeterminate} onChange={onCheckAllChange} checked={checkAll}>
-        Check all
+        All brands
       </Checkbox>
       <Divider />
       <CheckboxGroup options={plainOptions} value={checkedList} onChange={onChange} />

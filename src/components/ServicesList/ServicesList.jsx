@@ -19,7 +19,7 @@ export function ServicesList() {
       <h3>Services:</h3>
       <br />
       <Checkbox indeterminate={indeterminate} onChange={onCheckAllChange} checked={checkAll}>
-        Check all
+        All services
       </Checkbox>
       <Divider />
       <CheckboxGroup options={plainOptions} value={checkedList} onChange={onChange} />
