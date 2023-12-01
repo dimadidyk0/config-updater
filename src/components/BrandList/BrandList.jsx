@@ -3,7 +3,7 @@ import { Checkbox, Divider } from 'antd';
 
 const CheckboxGroup = Checkbox.Group;
 
-const plainOptions = ['IE', 'AV'];
+const plainOptions = ['COM', 'CA', 'SCCOM'];
 const defaultCheckedList = [];
 
 export function BrandList() {

@@ -3,7 +3,7 @@ import { Checkbox, Divider } from 'antd';
 
 const CheckboxGroup = Checkbox.Group;
 
-const plainOptions = ['live-casino', 'pm-casino', 'lobby', 'instant-games', 'bingo', 'tvgames', 'virtual-sports'];
+const plainOptions = ['live-casino', 'pm-casino'];
 const defaultCheckedList = [];
 
 export function ServicesList() {
