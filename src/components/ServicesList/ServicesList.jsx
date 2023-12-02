@@ -18,11 +18,19 @@ export function ServicesList() {
     <div>
       <h3>Services:</h3>
       <br />
-      <Checkbox indeterminate={indeterminate} onChange={onCheckAllChange} checked={checkAll}>
+      <Checkbox
+        indeterminate={indeterminate}
+        onChange={onCheckAllChange}
+        checked={checkAll}
+      >
         All services
       </Checkbox>
       <Divider />
-      <CheckboxGroup options={plainOptions} value={checkedList} onChange={onChange} />
+      <CheckboxGroup
+        options={plainOptions}
+        value={checkedList}
+        onChange={onChange}
+      />
     </div>
   )
 }
