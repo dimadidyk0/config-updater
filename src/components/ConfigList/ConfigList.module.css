@@ -1,0 +1,11 @@
+.card {
+  margin-bottom: 12px;
+}
+
+.code {
+  white-space: pre-wrap;
+  width: 680px;
+  display: flex;
+  overflow: auto;
+  font-size: 12px;
+}
