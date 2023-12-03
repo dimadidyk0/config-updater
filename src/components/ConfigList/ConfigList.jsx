@@ -4,7 +4,7 @@ import { useGetConfigs } from '../../hooks/useGetConfigs';
 import s from './ConfigList.module.css'
 
 export default function ConfigList() {
-  const { data, isLoading } = useGetConfigs();
+  const { data } = useGetConfigs();
 
   console.log(data);
 
